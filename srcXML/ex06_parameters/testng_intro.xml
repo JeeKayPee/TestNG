@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="mySuite">
+  <test thread-count="5" name="myTest">
+  <parameter name="BROWSER" value="chrome" />
+  <parameter name="URL" value="http://3.85.202.149:8080/wp-admin" />
+  <parameter name="USERNAME" value="user" />
+  <parameter name="PASSWORD" value="bitnami" />
+    <classes>
+      <class name="ex06_parameters.Ex01_Introduction"/>
+    </classes>
+  </test> <!-- myTest -->
+</suite> <!-- mySuite -->

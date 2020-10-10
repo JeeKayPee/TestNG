@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="mySuite">
+  <test thread-count="5" name="myTestB">
+    <classes>
+      <class name="ex07_multiXML.Test3"/>
+      <class name="ex07_multiXML.Test4"/>
+    </classes>
+  </test> <!-- myTestB -->
+</suite> <!-- mySuite -->

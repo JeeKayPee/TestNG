@@ -1,0 +1,10 @@
+package ex07_multiXML;
+
+import org.testng.annotations.Test;
+
+public class Test1 {
+  @Test
+  public void f() {
+	  System.out.println("A - Test 1");
+  }
+}
